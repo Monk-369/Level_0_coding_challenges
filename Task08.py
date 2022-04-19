@@ -3,5 +3,5 @@ def convert_time(num):
     minutes = num % 60
     time = print(hours, 'hour(s)', minutes, 'minute(s)')
     return time
-#print(convert_time('add value'))
+convert_time('116')
                 
