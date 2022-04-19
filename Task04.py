@@ -3,4 +3,4 @@ def even_or_odd(x):
         print('even')
     else:
         print('odd')
-# Call the function and add an integer as argument.
+even_or_odd(7)
