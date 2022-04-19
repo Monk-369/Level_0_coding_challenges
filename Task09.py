@@ -3,4 +3,4 @@ def vowel_finder(x):
     for letter in x:
         if letter in vowels:
             print(letter)
-#vowel_finder('String')
+vowel_finder('Autumn')
