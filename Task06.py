@@ -1,8 +1,8 @@
-def maximum(x, y, z):
-    if x <= y >= z:
-        print(y)
-    elif y <= x >= z:
-        print(x)
+def maximum(num_1, num_2, num_3):
+    if num_1 <= num_2 >= num_3:
+        print(num_2)
+    elif num_2 <= num_1 >= num_3:
+        print(num_1)
     else:
-        print(z)
+        print(num_3)
 maximum(12, 32, 6)
