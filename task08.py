@@ -10,7 +10,7 @@ def convert_to_time(num):
         print(hours, 'hours', minutes, 'minute')
     elif hours == 0 and minutes == 1:
         print(hours, 'hours', minutes, 'minute')
-    elif hours == 1:
+    elif hours == 1 and minutes != 1:
         print(hours, 'hour', minutes, 'minutes')
     else:
         print(hours, 'hours', minutes, 'minutes')
