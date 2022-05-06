@@ -5,5 +5,6 @@ def vowel_finder(string):
     for letter in set(string):
         if letter in vowels:
             vowel.append(letter)
-    print(str(vowel))
+    print(', '.join(vowel))
 vowel_finder('Autumn')
+
