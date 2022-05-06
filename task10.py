@@ -6,4 +6,4 @@ def common_character(string_1, string_2):
         if letter in string_2:
             common_chars.append(letter)
     print(', '.join(common_chars))
-common_character('BiRd', 'String')
+common_character('BiRd', 'bring')
