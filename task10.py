@@ -5,5 +5,5 @@ def common_character(string_1, string_2):
     for letter in string_1:
         if letter in string_2:
             common_chars.append(letter)
-    print(str(common_chars))
+    print(', '.join(common_chars))
 common_character('BiRd', 'String')
